@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.dark.min.css" rel="stylesheet"/>
+
+    <!-- Style Próprio-->
+    <link rel="stylesheet" href="">
+
+    <title>Pizzaria Tudo Gostoso</title>
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg " style="background-color: rgba(255, 123, 0, 0.863);">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="15"
+                     alt="MDB Logo" loading="lazy"/>
+            </a>
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="Cardapio.html">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Sobrenos.html">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contato.html">Contato</a>
+                </li>
+            </ul>
+            <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+            <!-- Icon -->
+            <a class="text-reset me-3" href="login.html" target="blanck">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            </a>
+        </div>
+    </div>
+    <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <!-- Tabs navs -->
+            <ul class="nav nav-tabs nav-justified mb-3" id="ex1" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="ex3-tab-1" data-mdb-toggle="tab" href="#ex3-tabs-1" role="tab"
+                       aria-controls="ex3-tabs-1" aria-selected="true">Cardápio</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="ex3-tab-2" data-mdb-toggle="tab" href="#ex3-tabs-2" role="tab"
+                       aria-controls="ex3-tabs-2" aria-selected="false">Combos</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="ex3-tab-3" data-mdb-toggle="tab" href="#ex3-tabs-3" role="tab"
+                       aria-controls="ex3-tabs-3" aria-selected="false">Porções</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="ex3-tab-4" data-mdb-toggle="tab" href="#ex3-tabs-4" role="tab"
+                       aria-controls="ex3-tabs-4" aria-selected="false">Bebidas</a>
+                </li>
+            </ul>
+            <!-- Tabs navs -->
+
+            <!-- Tabs content -->
+            <div class="tab-content" id="ex2-content">
+                <div class="tab-pane fade show active" id="ex3-tabs-1" role="tabpanel" aria-labelledby="ex3-tab-1">
+                    <!-- Pills navs -->
+                    <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="ex3-tab-1" data-mdb-toggle="pill"
+                               href="#ex3-pills-1" role="tab" aria-controls="ex3-pills-1"
+                               aria-selected="true">Salgadas</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="ex3-tab-2" data-mdb-toggle="pill" href="#ex3-pills-2"
+                               role="tab" aria-controls="ex3-pills-2" aria-selected="false">Doces</a>
+                        </li>
+                    </ul>
+                    <!-- Pills navs -->
+
+                    <!-- Pills content -->
+                    <div class="tab-content" id="ex2-content">
+                        <div class="tab-pane fade show active" id="ex3-pills-1" role="tabpanel"
+                             aria-labelledby="ex3-tab-1">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="card text-white bg-warning mb-3">
+                                        <div class="card-header">Pequena</div>
+                                        <div class="card-body">
+                                            <h5 class="card-title"><div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                                <label class="form-check-label" for="flexCheckDefault">R$20,00</label>
+                                            </div></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card text-white bg-warning mb-3">
+                                        <div class="card-header ">Média</div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2" />
+                                                    <label class="form-check-label" for="flexCheckDefault">R$30,00</label>
+                                                </div></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card text-white bg-warning mb-3">
+                                        <div class="card-header">Grande</div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3" />
+                                                <label class="form-check-label" for="flexCheckDefault">R$45,00</label>
+                                            </div></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <table class=" table table striped border primary" width="100%">
+                                        <thead>
+                                        <tr>
+                                            <th width="33%"> IMAGEM</th>
+                                            <th width="24%"> PIZZA</th>
+                                            <th width="50%"> INGREDIENTES</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <img
+                                                        src="https://pilotandofogao.com.br/wp-content/uploads/2016/05/Pizza-De-Calabresa.jpg"
+                                                        height="60"/></td>
+                                            <td>Calabresa</td>
+                                            <td>Molho de tomate , Mussarela , Calabresa</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img
+                                                        src="https://www.restaurantebosque.com.br/wp-content/uploads/2020/04/pizza-marguerita.jpg"
+                                                        height="60"/></td>
+                                            <td>Marguerita</td>
+                                            <td>molho de tomate, manjericão, rodelas de tomate fresco,
+                                                queijo muçarela e orégano
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img
+                                                        src="https://www.sabornamesa.com.br/media/k2/items/cache/2c3125eb8597b442fad87e2c031423e6_XL.jpg"
+                                                        height="50"/></td>
+                                            <td>Portuguesa</td>
+                                            <td>azeitona preta,ovo cozido,presunto,cebola ,ervilha,molho
+                                                de tomate
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img
+                                                        src="http://www.hojetemfrango.com.br/wp-content/uploads/2019/01/shutterstock_333724454.jpg"
+                                                        height="50"/></td>
+                                            <td>Frango com Catupiry</td>
+                                            <td>Mussarela, peito de frango e catupiry
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="ex3-pills-2" role="tabpanel" aria-labelledby="ex3-tabs-2">
+                            <div class="row">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="card text-white bg-warning mb-3">
+                                            <div class="card-header">Pequena</div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+                                                    <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4" />
+                                                    <label class="form-check-label" for="flexCheckDefault">R$30,00</label>
+                                                </div>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="card text-white bg-warning mb-3">
+                                            <div class="card-header">Média</div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+                                                    <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5" />
+                                                    <label class="form-check-label" for="flexCheckDefault">R$45,00</label>
+                                                </div></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="card text-white bg-warning mb-3">
+                                            <div class="card-header">Grande</div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+                                                    <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6" />
+                                                    <label class="form-check-label" for="flexCheckDefault">R$60,00</label>
+                                                </div></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <table class=" table table striped border primary" width="100%">
+                                            <thead>
+                                            <tr>
+                                                <th width="33%"> IMAGEM</th>
+                                                <th width="24%"> PIZZA</th>
+                                                <th width="50%"> INGREDIENTES</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>
+                                                    <img
+                                                            src="https://www.comidaereceitas.com.br/img/sizeswp/1200x675/2008/07/Pizza_brigadeoraaa.jpg"
+                                                            height="50"/></td>
+                                                <td>Brigadeiro</td>
+                                                <td>Massa de pizza , brigadeiro</td>
+                                            </tr>
+                                            <tr>
+                                            <tr>
+                                                <td>
+                                                    <img
+                                                            src="https://i0.wp.com/julianamalta.com/wp-content/uploads/2018/07/pizzaria-brasileira-em-ny-casa-theodoro-juliana-malta12.jpg?ssl=1"
+                                                            height="60"/></td>
+                                                <td>Beijinho</td>
+                                                <td>mussarela,leite condensado,cocô e chocolate branco</td>
+                                            </tr>
+                                            <tr>
+                                            <tr>
+                                                <td>
+                                                    <img
+                                                            src="https://www.pizzariatrezedemaio.com.br/uploads/cardapios/36/0419856ab2b8c4ffa8480d913a562e4e.jpg"
+                                                            height="50"/></td>
+                                                <td>Carlifórnia</td>
+                                                <td>Mussarela,leite condensado,abacaxi , figo ,pêssego e cereja</td>
+                                            </tr>
+                                            <tr>
+                                            <tr>
+                                                <td>
+                                                    <img
+                                                            src="https://img.itdg.com.br/images/recipes/000/055/212/131483/131483_original.jpg"
+                                                            height="50"/></td>
+                                                <td>Chocolate Preto</td>
+                                                <td>Mussarela, leite condensado e chocolate preto</td>
+                                            </tr>
+                                            <tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- Pills content -->
+
+                        <div class="tab-pane fade" id="ex3-tabs-2" role="tabpanel" aria-labelledby="ex3-tab-2">
+                        1
+                        </div>
+                        <div class="tab-pane fade" id="ex3-tabs-3" role="tabpanel" aria-labelledby="ex3-tab-3">
+                        2
+                        </div>
+                        <div class="tab-pane fade" id="ex3-tabs-4" role="tabpanel" aria-labelledby="ex3-tab-4">
+                            Tab 4 content
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- Tabs content -->
+
+
+        <!-- MDB -->
+        <script type="text/javascript"
+                src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
+</body>
+
+</html>
